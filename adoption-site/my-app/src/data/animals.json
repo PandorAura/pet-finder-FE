@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "photo": "https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Golden-Retriever.jpg?v=1645179525",
+      "name": "Buddy",
+      "age": 3,
+      "description": "A friendly and energetic Golden Retriever who loves to play fetch.",
+      "location": "New York, NY",
+      "isAdopted": false
+    },
+    {
+      "id": 2,
+      "photo": "https://purebredkitties.com/cdn/shop/articles/siamese-cats-exploring-unique-personalities-behaviors-cats-purebred.webp?v=1740281087&width=1024",
+      "name": "Whiskers",
+      "age": 5,
+      "description": "A calm and affectionate Siamese cat who loves sunny spots.",
+      "location": "Los Angeles, CA",
+      "isAdopted": true
+    },
+    {
+      "id": 3,
+      "photo": "https://www.purina.co.uk/sites/default/files/2020-12/Dog_1098119012_Teaser.jpg",
+      "name": "Max",
+      "age": 2,
+      "description": "A loyal and protective German Shepherd who is great with families.",
+      "location": "Chicago, IL",
+      "isAdopted": false
+    },
+    {
+      "id": 4,
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Oryctolagus_cuniculus_Rcdo.jpg",
+      "name": "Luna",
+      "age": 1,
+      "description": "A playful and curious rabbit who loves carrots and hopping around.",
+      "location": "Houston, TX",
+      "isAdopted": false
+    },
+    {
+      "id": 5,
+      "photo": "https://image.petmd.com/files/inline-images/english-bulldog-5.jpg?VersionId=1KyTFgo4HZwpAcjf.WZ8mM_2yt6f9Zc3",
+      "name": "Rocky",
+      "age": 4,
+      "description": "A strong and adventurous Bulldog who enjoys long walks.",
+      "location": "Phoenix, AZ",
+      "isAdopted": true
+    },
+    {
+      "id": 6,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSIcYzpbj93K34jI42guHtgpuIIJ0S94SPA&s",
+      "name": "Coco",
+      "age": 2,
+      "description": "A sweet and intelligent Parrot who can mimic sounds and words.",
+      "location": "Miami, FL",
+      "isAdopted": false
+    },
+    {
+      "id": 7,
+      "photo": "https://example.com/images/bella.jpg",
+      "name": "Bella",
+      "age": 6,
+      "description": "A gentle and loving Labrador Retriever who is great with kids.",
+      "location": "Seattle, WA",
+      "isAdopted": false
+    },
+    {
+      "id": 8,
+      "photo": "https://example.com/images/simba.jpg",
+      "name": "Simba",
+      "age": 1,
+      "description": "A playful and mischievous kitten who loves climbing and exploring.",
+      "location": "Boston, MA",
+      "isAdopted": true
+    },
+    {
+      "id": 9,
+      "photo": "https://example.com/images/oreo.jpg",
+      "name": "Oreo",
+      "age": 3,
+      "description": "A fluffy and friendly Guinea Pig who loves being held and fed veggies.",
+      "location": "Denver, CO",
+      "isAdopted": false
+    },
+    {
+      "id": 10,
+      "photo": "https://example.com/images/zeus.jpg",
+      "name": "Zeus",
+      "age": 7,
+      "description": "A majestic and calm Great Dane who enjoys lounging around.",
+      "location": "San Francisco, CA",
+      "isAdopted": false
+    }
+  ]

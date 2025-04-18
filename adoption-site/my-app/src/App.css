@@ -1,0 +1,81 @@
+:root {
+  --navbar-height: 60px; 
+  width: 95%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%; 
+  height: var(--navbar-height);
+  background-color: #DDD5F6; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+}
+
+.navbar-logo a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem; 
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.navbar-links a.active {
+  background-color: #6C63FF; 
+  color: white; 
+}
+
+.navbar-links a:hover {
+  background-color: #6C63FF; 
+  color: white; 
+}
+
+
+.loginButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  height: calc(100vh - var(--navbar-height)); 
+  padding-bottom: 20px; 
+}
+
+.loginButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6C63FF; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #574fdb; 
+}

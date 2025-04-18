@@ -1,0 +1,9 @@
+.happy-stories-page {
+    padding: calc(30vh - var(--navbar-height));
+  }
+  
+  .animal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }

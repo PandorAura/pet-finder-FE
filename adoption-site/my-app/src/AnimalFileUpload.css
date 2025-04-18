@@ -1,0 +1,61 @@
+/* AnimalFileUpload.css */
+.animal-file-upload {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+  }
+  
+  .animal-file-upload input[type="file"] {
+    margin-bottom: 15px;
+  }
+
+  .file-info {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: #d32f2f;
+    margin-top: 10px;
+  }
+  
+  /* AnimalMediaDisplay.css */
+  .animal-media-item {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+  }
+  
+  .animal-media {
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .media-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .download-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .download-button {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .delete-button {
+    background: #f44336;
+    color: white;
+  }
