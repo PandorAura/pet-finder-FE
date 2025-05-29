@@ -1,8 +1,14 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
-COPY package*.json ./
-RUN npm install       # Works without existing package-lock.json
-COPY . .
+
+# Copy package files first (critical for caching)
+COPY adoption-site/my-app/package*.json ./  
+
+RUN npm install
+
+# Copy remaining files
+COPY adoption-site/my-app/ ./
+
 RUN npm run build
 
 FROM nginx:alpine
