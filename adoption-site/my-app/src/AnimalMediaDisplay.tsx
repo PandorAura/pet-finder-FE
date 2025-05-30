@@ -13,7 +13,7 @@ const AnimalMediaDisplay: React.FC<AnimalMediaDisplayProps> = ({
   animalId, 
   onDelete,
 }) => {
-  const API_BASE_URL = 'https://localhost:7280';
+  const API_BASE_URL = 'https://pet-finder-be-production.up.railway.app';
   const cleanFileName = fileName.includes('\\') ? fileName.split('\\').pop()! : fileName;
   const fileUrl = `${API_BASE_URL}/animal-uploads/${encodeURIComponent(cleanFileName)}`;
 

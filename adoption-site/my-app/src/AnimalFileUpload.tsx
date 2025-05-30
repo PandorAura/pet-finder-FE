@@ -19,7 +19,7 @@ const AnimalFileUpload: React.FC<AnimalFileUploadProps> = ({
   const [uploadProgress, setUploadProgress] = useState(0);
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'uploading' | 'success' | 'error'>('idle');
 
-  const API_BASE_URL = 'https://localhost:7280';
+  const API_BASE_URL = 'https://pet-finder-be-production.up.railway.app';
 
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {

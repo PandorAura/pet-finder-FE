@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://localhost:7280/api/animals';
+const API_BASE_URL = 'https://pet-finder-be-production.up.railway.app';
 
 export interface Animal {
   id: number;

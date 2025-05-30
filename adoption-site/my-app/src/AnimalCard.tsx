@@ -27,7 +27,7 @@ const AnimalCard = React.memo(({
   isAverageAge = false,
 }: AnimalCardProps) => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const API_BASE_URL = 'https://localhost:7280';
+  const API_BASE_URL = 'https://pet-finder-be-production.up.railway.app';
 
   const mainPhotoUrl = useMemo(() => {
     if (animal.mediaFiles?.length > 0) {
